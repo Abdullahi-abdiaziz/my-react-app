@@ -54,10 +54,12 @@ body {
   color: var(--light-blue);
 }
 main {
-  padding: 4rem 2rem;
-  background: #282D35;
+  padding: 5rem 2rem;
+  background-color: #282D35;
   color: white;
   border-radius: 0 0 5px 5px;
+  position: relative;
+  overflow: hidden;
 }
 .main__title {
   font-size: 35px;
@@ -75,5 +77,11 @@ main {
 .main__list li::marker {
   font-size: 25px;
   color: var(--light-blue);
+}
+.main__bg {
+  position: absolute;
+  top: 0;
+  right: -30%;
+  opacity: .4;
 }
 /* Main Style */

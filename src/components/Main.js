@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "./logo512.png"
 export default function Main() {
     return (
         <main>
@@ -11,6 +11,9 @@ export default function Main() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+            <div className="main__bg">
+                <img src={image} alt="" />
+            </div>
         </main>
     )
 }
