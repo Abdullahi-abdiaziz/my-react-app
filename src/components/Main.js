@@ -1,5 +1,6 @@
 import React from "react";
-import image from "./logo512.png"
+import image from "./logo192.png"
+
 export default function Main() {
     return (
         <main>
