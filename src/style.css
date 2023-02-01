@@ -85,7 +85,7 @@ main {
 }
 .main__bg {
   position: absolute;
-  top: 30%;
+  top: 25%;
   right: -25%;
   opacity: .1;
 }
